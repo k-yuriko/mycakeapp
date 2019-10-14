@@ -21,8 +21,8 @@
       mail<?= $this->Form->text("Form1.mail"); ?><br>
       age<?= $this->Form->text("Form1.age");  ?><br>
       <?= $this->Form->radio("Form1.radio", [
-        ["value" => "アイスホッ", "text" => "アイスホッケー"],
-        ["value" => "野球", "text" => "野球"],
+        ["value" => "アイスホッケー", "text" => "アイスホッケー"],
+        ["value" => "サッカー", "text" => "野球"],
         ["value" => "サッカー", "text" => "サッカー"]
       ]); ?><br>
       <?= $this->Form->select("Form1.select",
